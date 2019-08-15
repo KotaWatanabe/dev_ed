@@ -1,0 +1,21 @@
+// @mixin flexCenter($direction, $background) {
+//     display:flex;
+//     justify-content: center;
+//     align-items: center;
+//     height:50vh;
+//     flex-direction: $direction;
+//     background: $background; 
+// }
+
+header{
+    // @include flexCenter(column, skyblue);
+    height: 50vh;
+    color: $textColor;
+    background:skyblue;
+    button{
+        background: $primaryBtn;
+        &:hover{
+           background:purple; 
+        }
+    }
+}
